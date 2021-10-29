@@ -1,96 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
 
-header {
-    background-image: url(/img/IMG-20211013-WA0032.jpg);
-    height: 550px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-    float: left !important;
-  }
-  
-  /* NAV START */
-  .navbar {
-    position: relative;
-    top: 6vh;
-    color: #fff;
-  }
-  
-  .navbar-nav li {
-    padding-right: 12px;
-    position: relative;
-    right: 20vh;
-    color: #fff !important;
-    font-weight: bold;
-    font-size: 15px;
-  }
-  
-  @media (max-width: 992px) {
-    /* header {
-      background-image: url(/FundMe-fe-pjt-69/IMG-Landing/Header.jpg);
-      height: 1500px !important;
-      width: 100% !important;
-      background-repeat: no-repeat;
-      background-size: contain;
-    } */
-  
-    .navbar-nav,
-    .nav-item {
-      position: relative;
-      left: 0vh;
-    }
-  
-    .navbar {
-      position: relative;
-      top: 0vh;
-    }
-  }
-  
-  .btn1 {
-    background-color: #0072b1;
-    border: none;
-    width: 110px;
-    height: 34px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 12px;
-    position: relative;
-    right: 1vh;
-  }
-  
-  .btn2 {
-    background: transparent;
-    border: 1px solid #fff;
-    width: 110px;
-    height: 34px;
-    border-radius: 4px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 12px;
-  }
-  
-  .navbar-toggler {
-    padding: 0.25rem 0.75rem;
-    font-size: 1.25rem;
-    line-height: 1;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-    transition: box-shadow 0.15s ease-in-out;
-    z-index: 9999 !important;
-  }
-  
-  .navbar-dark .navbar-toggler {
-    color: transparent;
-    border-color: transparent !important;
-  }
-  
-  .navbar-toggler-icon {
-    display: inline-block;
-    width: 1.2em;
-    height: 1.2em;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-  }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Sura', sans-serif !important;
+  color: #131313;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
