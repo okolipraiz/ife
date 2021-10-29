@@ -11,3 +11,34 @@
 .item:hover{
     filter: brightness(100%);
 }
+
+#item{
+    background-image: url(/img/Rectangle\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 50s infinite linear;
+    height: 350px;
+    width: 100%;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(/img/item.png);
+        background-position: center;
+    }
+    25%{
+        background-image: url(/img/IMG-20211020-WA0058.jpg);
+    }
+
+    50%{
+        background-image: url(/img/IMG-20211020-WA0057.jpg);
+    }
+ 
+    75%{
+        background-image: url(/img/IMG-20211013-WA0032.jpg);
+    }
+
+    95%{
+        background-image: url(/img/IMG-20211020-WA0060.jpg);
+    }
+}
