@@ -28,3 +28,14 @@ body{
     font-weight: 400;
     font-size: 20px;
 }
+
+.d-block{
+    height: 540px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    /* background-size: contain; */
+}
