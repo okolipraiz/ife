@@ -5,59 +5,49 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="shortcut icon" href="" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
-    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
     <title>60th Birthday</title>
+
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
   </head>
   <body>
 
-    <nav>
+    <header>
+    <nav class="px-5">
         <input type="checkbox" id="check">
     <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
     </label>
-    <span class="logo"><a href="/index.html">60th Birthday</a></span>
+  <a href="/index.html"><img src="/img/60th Birthday.png" class="logo"></a>
      <ul>
-         <li><a href="#features">Home</a></li>
-         <li><a href="#features">Biography</a></li>
-        <li> <a href="/pages/faqs.html">Programme</a></li>
-         <li><a href="#contact">Gallery</a></li>
-         <a href="/login.html"> <button type="button" class="btn1">Tributes</button></a>
+        <li><a href="/index.html">Home</a></li>
+         <li><a href="/pages/bio.html">Biography</a></li>
+        <li> <a href="/pages/program.html">Programme</a></li>
+         <li><a href="/pages/gallery.html">Gallery</a></li>
+         <a href="/pages/tribute.html"> <button type="button" class="btn1">Tributes</button></a>
      </ul>
     </nav>
+</header>
 
     <style>
         nav{
-            font-family: 'Sura', Times, serif;
-            background: #F6F9FB;
+            background: none;
             width: 100%;
-            height: 85px;
             box-shadow: 0 8px 10px rgb(0 0 0 / 5%);
             position: fixed;
             z-index: 9999;
-            padding-top: 5px;
-            padding-left: 1px;
-            padding-right: 1px;
         }
-        
-        a{
-            text-decoration: none;
-        }
-        
+
         .logo{
-            padding-left: 30px;
             padding-top: 10px;
             cursor: pointer;
-            text-decoration: none;
         }
         
         nav ul{
             float: right;
             margin-right: 20px;
             z-index: 9999;
-            background-color: #F6F9FB !important;
         }
         
         nav ul li{
@@ -67,17 +57,15 @@
         }
         
         nav ul li a{
-            color: #333;
+            color: #fff;
             font-size: 15px;
-            font-weight: 700;
-            border-radius: 3px;
             padding-right: 60px !important;
             text-decoration: none;
-        
+            font-weight: 400;
         }
         
         nav ul li a:hover{
-            color: #0062B8;
+            color: #6C520E;
             transition: .5s;
         }
         
@@ -85,8 +73,7 @@
         background-color: #6C520E;
         border: none;
         width: 105px;
-        height: 35px;
-        border-radius: 6px;
+        height: 40px;
         color: #fff;
         font-weight: bold;
         font-size: 12px;
@@ -97,7 +84,7 @@
         .checkbtn{
             float: right;
             line-height: 72px;
-            color: #333;
+            color: rgb(253, 255, 139);
             font-size: 23px;
             margin-right: 40px;
             cursor: pointer;
@@ -115,7 +102,7 @@
            }
         
            .btn1 {
-            background-color: #0062B8;
+            background-color: #6C520E;
             border: none;
             border-radius: 6px;
             color: #fff !important;
@@ -125,8 +112,22 @@
         }
         
         @media (max-width: 858px) {
+        .logo{
+        filter: brightness(9.5);
+        }
+
             .checkbtn{
             display: block;
+        }
+
+        nav{
+            background: #6C520E;
+            width: 100%;
+            box-shadow: 0 8px 10px rgb(0 0 0 / 5%);
+            position: fixed;
+            z-index: 9999;
+            width: 100%;
+            height: 11vh;
         }
         
           ul{
@@ -137,6 +138,7 @@
               left: -100%;
               text-align: center;
               transition: all .5s;
+              background: #6C520E;
           }
         
           nav ul li{
@@ -147,6 +149,18 @@
           nav ul li a{
               font-size: 20px;
           }
+
+        .btn1 {
+        background-color: #fff;
+        border: none;
+        width: 105px;
+        height: 40px;
+        color: #6C520E !important;
+        font-weight: bold;
+        font-size: 12px;
+        position: relative;
+        right: 4vh !important;
+        }
         
           #check:checked ~ ul{
               left: 0;
@@ -154,6 +168,106 @@
         }
         </style>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<section class="learn">
+    <div class="container">
+        <div class="row align-items-center justify-content-between pb-5">
+            <div class="learn2 col-md p-4">
+                <div class="class pt-5">
+                    <p class="osho">
+                        Happy Birthday
+                       </p>
+                       <div class="mrs">
+              <h2 class="happy">Mrs. Olubukunola <br>Osho</h2>
+              <p class="lead">
+              <p class="year">
+                Celebrating God’s Faithfulness through <br>60 years.
+             </p>
+              </p>
+            </div>
+              </div>
+            </div>
+            <div class="profile col-md">
+              <!-- <img src="/img/Rectangle 2.png" class="img-fluid" alt=""> -->
+          </div>
+        </div>
+    </div>
+</section>
+
+<section class="learn-2" >
+    <div class="container">
+        <div class="row align-items-center justify-content-between pt-4">
+            <div class="col-md">
+                <div class="square">
+                    <img src="/img/Rectangle 10.png" alt="" class="square1">
+                    <img src="/img/Rectangle 11.png" alt="" class="square2">
+                </div>
+                <img src="/img/hbdcard.jpeg" class="img-fluid" alt="" style="position: relative;">
+            </div>
+            <div class="dialogue col-md p-5">
+                <p>Join us as we celebrate our...</p>
+              <h2 class="center"></h2>
+              <p class="lead">
+            <p style="font-weight: 900;">RSVP</p>
+            <span class="num">
+                Ifeoluwa  Osho <span style="font-weight: 900;">08036483325</span>
+                <br>
+                Oreoluwa Osho <span style="font-weight: 900;">07045577887</span>  
+            </span>
+            <div class="pt-4">
+            <a href="/login.html"> <button type="button" class="btn2">Tributes</button></a>
+        </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer" style="background-color:#665E3D;"> <div id="contact"></div>
+    <section class="foot pt-5 pb-4 text-center pb-4"> <div id="foot"></div>
+    <div class="container">
+    <div class="row text-center text-md-left">
+          
+      <div class="foot-main col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="text-align: left;">
+          <img src="/img/60th Birthday.png" class="foot-img" style="filter:brightness(3);" alt="">
+      </div>
+    
+      <div class="col-md-3 col-lg col-xl-3 mx-auto mt-3 align-left">
+        <h5 class="mb-4 font-weight-bolder" style="text-align: left; color: #fff;">Address</h5>
+          <p style="text-align: left; color: #fff;">Triumphant Baptist Church 19,<br>
+             Olufemi- Ojo street, shasha, <br>
+              Akowonjo, Lagos..
+            </p>
+      </div>
+    
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" style="text-align: left; color: #fff;">
+        <h5 class="mb-4 font-weight-bold">Explore</h5>
+        <!-- <hr class="mb-4"> -->
+        <p>
+          <a href="#" class="text-light" style="text-decoration: none;">Biography</a>
+        </p>
+        <p>
+          <a href="#" class="text-light" style="text-decoration: none;">Programme</a>
+        </p>
+        <p>
+          <a href="#" class="text-light" style="text-decoration: none;">Tributes</a>
+        </p>
+        <p>
+          <a href="#" class="text-light" style="text-decoration: none;">Gallery</a>
+        </p>
+      </div>
+
+      <div class="col-md-3 col-lg col-xl-3 mx-auto mt-3 align-left">
+        <h5 class="mb-4 font-weight-bolder" style="text-align: left; color: #fff;">Contact</h5>
+          <p style="text-align: left; color: #fff;">               
+             08036483325 <br>
+            07045577887 
+            </p>
+      </div> 
+    </div>
+    </div>
+        <div style="color: #fff;">Created 2021</div>
+    </section>
+    </footer>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>

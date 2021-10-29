@@ -1,1 +1,149 @@
-@import url('https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sura', sans-serif !important;
+    color: #131313;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.profile{
+    background-image: url(/img/Rectangle\ 2\ \(1\).png);
+    background-repeat: no-repeat;
+    animation: slider 20s infinite linear;
+    height: 100vh;
+    position: relative;
+    left: 11vh !important;
+    width: 100%;
+    border-bottom-left-radius: 5rem;
+    padding-left: 30vh !important;  
+}
+
+@keyframes slider {
+    0% {
+        background-image: url(/img/Rectangle\ 2.png);
+    }
+    45%{
+        background-image: url(/img/Rectangle\ 2\ \(2\).png);
+    }
+}
+
+@media (max-width: 768px) {
+    .logo{
+        filter: brightness(9.5);
+    }
+
+    .osho{
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 1vh;
+    }
+
+    .mrs{
+        padding-top: 2.5vh;
+    }   
+
+    .learn{
+        position: relative;
+        top: 5vh;
+        text-align: center;
+    }
+    .profile{
+        display: none;
+    }
+}
+
+.osho{
+    color: #6C520E;
+    border: 1px solid #6C520E;
+    width: 150px;
+    height: 40px;
+    padding-top: 1vh;
+    text-align: center;
+    font-weight: 400;
+}
+
+.happy{
+    color: #131313;
+    font: 400;
+    font-family: 'Sura', sans-serif;
+}
+
+.square{
+    padding-left: 60vh;
+    position: relative;
+    top: 5vh;
+}
+
+.square1{
+    position: relative;
+    left: 7vh;
+    top: 18vh;
+}
+
+.square2{
+    position: relative;
+    left: 10vh;
+    top: 2vh;
+}
+
+@media (max-width: 858px) {
+    .square{
+        display: none;
+    }
+}
+
+.dialogue{
+    text-align: center;
+}
+
+.dialogue h2:after{
+    content: 'Wife';
+    font-size: 50px;
+    font-family: 'Salsa', sans-serif;
+    font-weight: 400;
+    animation: text 10s infinite;
+}
+
+.center{
+    padding-top: 5vh !important;
+}
+
+@keyframes text {
+    20%{
+        content: 'Wife';
+    }
+    50%{
+        content: 'Daughter';
+    }
+    100%{
+        content: 'Mother';
+    }
+}
+
+.num{
+    font-family: 'Sura', sans-serif;
+}
+
+
+.btn2 {
+    background-color: #6C520E;
+    border: none;
+    width: 110px;
+    height: 45px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    }
+
+    .footer{
+        position: relative;
+        top: 5vh;
+    }
