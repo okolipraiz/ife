@@ -30,12 +30,27 @@ body{
 }
 
 .d-block{
-    height: 540px;
+    height: 440px;
+    width: 50%;
     background-repeat: no-repeat;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+}
 
-    /* background-size: contain; */
+.carousel-indicators {
+    display: none !important;
+}
+
+@media (max-width: 786px) {
+    .d-block{
+        width: 100% !important;
+    }
+}
+
+.names{
+    font-family: 'Sura', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
 }
