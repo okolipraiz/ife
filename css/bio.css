@@ -29,16 +29,7 @@ body{
     font-size: 21px;
 }
 
-.first{
-  margin-left: 230px;
-  position: relative;
-  bottom: 25vh;
-}
 
-.second{
-  position: relative;
-  bottom: 13vh;
-}
 
 #row>*{
   display: flex !important;
@@ -47,23 +38,26 @@ body{
   align-items: center !important;
 }
 
-@media (max-width: 786px) {
-  .alt-1{
-    display: none !important;
-  }
-
   .second{
     position: relative;
     bottom: 0;
   }
 
-  .img1{
-    display: none;
+  @media (max-width: 786px) {  
+    .img1{
+      display: none;
+    }
   }
-}
 
-@media (min-width: 786px) {
+  @media (min-width: 786px) {
   .alt-2{
     display: none;
   }
 }
+
+    .happy{
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
