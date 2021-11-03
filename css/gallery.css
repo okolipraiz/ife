@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
 
 *{
     box-sizing: border-box;
@@ -16,7 +15,7 @@
 }
 
 #item{
-    background-image: url(/img/Rectangle\ 20\ \(1\).png);
+    background-image: url(/img/rectangle-201.png);
     background-repeat: no-repeat;
     background-size: cover;
     animation: slider 50s infinite linear;
