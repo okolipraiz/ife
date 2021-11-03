@@ -43,7 +43,7 @@ body{
 
     .learn{
         position: relative;
-        top: 5vh;
+        top: 5vh !important;
         text-align: center;
     }
 
