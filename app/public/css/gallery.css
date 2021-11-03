@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.osho {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    color: #6C520E;
+    border: 1px solid #6C520E;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.item{
+    transition: .5s ease-in-out;
+}
+
+.item:hover{
+    filter: brightness(100%);
+}
+
+#item{
+    background-image: url('../img/rectangle-201.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: slider 50s infinite linear;
+    height: 350px;
+    width: 100%;
+}
+
+@keyframes slider {
+    0% {
+        background-image: url('../img/item.png');
+        background-position: center;
+    }
+    25%{
+        background-image: url('../img/IMG-20211020-WA0058.jpg');
+    }
+
+    50%{
+        background-image: url('../img/IMG-20211020-WA0057.jpg');
+    }
+
+    75%{
+        background-image: url('../img/IMG-20211013-WA0032.jpg');
+    }
+
+    95%{
+        background-image: url('../img/IMG-20211020-WA0060.jpg');
+    }
+}
+
+

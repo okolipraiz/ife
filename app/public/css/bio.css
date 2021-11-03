@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Sura', sans-serif !important;
+    color: #131313;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.osho{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    color: #6C520E;
+    border: 1px solid #6C520E;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+#row>*{
+    display: flex !important;
+    justify-content: center !important;
+    margin: 0 auto !important;
+    align-items: center !important;
+}
+
+.second{
+    position: relative;
+    bottom: 0;
+}
+
+@media (max-width: 786px) {
+    .img1{
+        display: none;
+    }
+}
+
+@media (min-width: 786px) {
+    .alt-2{
+        display: none;
+    }
+}
+
+.happy{
+    justify-content: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
