@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.osho {
+
+.osho{
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@
     font-size: 21px;
 }
 
+
 .item{
     transition: .5s ease-in-out;
 }
@@ -31,7 +33,7 @@
 }
 
 #item{
-    background-image: url('../img/rectangle-201.png');
+    background-image: url("../img/rectangle-201.png");
     background-repeat: no-repeat;
     background-size: cover;
     animation: slider 50s infinite linear;
@@ -41,24 +43,22 @@
 
 @keyframes slider {
     0% {
-        background-image: url('../img/item.png');
+        background-image: url("../img/item.png");
         background-position: center;
     }
     25%{
-        background-image: url('../img/IMG-20211020-WA0058.jpg');
+        background-image: url("../img/IMG-20211020-WA0058.jpg");
     }
 
     50%{
-        background-image: url('../img/IMG-20211020-WA0057.jpg');
+        background-image: url("../img/IMG-20211020-WA0057.jpg");
     }
 
     75%{
-        background-image: url('../img/IMG-20211013-WA0032.jpg');
+        background-image: url("../img/IMG-20211013-WA0032.jpg");
     }
 
     95%{
-        background-image: url('../img/IMG-20211020-WA0060.jpg');
+        background-image: url("../img/IMG-20211020-WA0060.jpg");
     }
 }
-
-

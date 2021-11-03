@@ -7,10 +7,13 @@
 
     <style>
         nav {
-            background: none;
+            background: #fff !important;
             width: 100%;
+            height: 15vh;
             position: fixed;
             z-index: 9999;
+            color: #000 !important;
+            box-shadow: 0 8px 10px rgb(0 0 0 / 5%);
         }
 
         .logo {
@@ -31,11 +34,11 @@
         }
 
         nav ul li a {
-            color: #fff;
-            font-size: 15px;
+            color: #000;
+            font-size: 16px;
             padding-right: 60px !important;
             text-decoration: none;
-            font-weight: 400;
+            font-weight: 500;
         }
 
         nav ul li a:hover {
@@ -95,11 +98,12 @@
             }
 
             nav {
-                background: #6C520E;
+                background: #6C520E !important;
                 width: 100%;
                 box-shadow: 0 8px 10px rgb(0 0 0 / 5%);
                 position: fixed;
                 z-index: 9999;
+                width: 100%;
                 height: 11vh;
             }
 
@@ -116,7 +120,7 @@
 
             nav ul li {
                 display: block;
-                margin: 1px 5px;
+                margin: 0.5px 5px;
             }
 
             nav ul li a {
@@ -184,6 +188,36 @@
                 </div>
                 <div class="profile col-md">
                     <!-- <img src="/img/Rectangle 2.png" class="img-fluid" alt=""> -->
+                    <section>
+                        <div class="container">
+                            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="10000">
+                                        <img src="{{ asset('img/rectangle-2.png') }}" class="img-fluid" id="profile"  alt="bio-image">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="{{ asset('img/rectangle-22.png') }}" class="img-fluid" id="profile"  alt="bio-image">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="{{ asset('img/rectangle-21.png') }}" class="img-fluid" id="profile"  alt="bio-image">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
@@ -226,7 +260,8 @@
             <div class="container">
                 <div class="row text-center text-md-left">
                     <div class="foot-main col-md-3 mx-auto mt-3" style="text-align: left;">
-                        <img src="{{ asset('img/60th-birthday.png') }}" class="foot-img" style="filter:brightness(3);" alt="">
+                        <img src="{{ asset('img/60th-birthday.png') }}" class="foot-img" style="filter:brightness(3);"
+                             alt="">
                     </div>
 
                     <div class="col-md-3 mx-auto mt-3 align-left">
@@ -244,10 +279,12 @@
                             <a href="{{ route('biography') }}" class="text-light" style="text-decoration: none;">Biography</a>
                         </p>
                         <p>
-                            <a href="{{ route('tributes') }}" class="text-light" style="text-decoration: none;">Tributes</a>
+                            <a href="{{ route('tributes') }}" class="text-light"
+                               style="text-decoration: none;">Tributes</a>
                         </p>
                         <p>
-                            <a href="{{ route('gallery') }}" class="text-light" style="text-decoration: none;">Gallery</a>
+                            <a href="{{ route('gallery') }}" class="text-light"
+                               style="text-decoration: none;">Gallery</a>
                         </p>
                         <p>
                             <a href="{{ route('program') }}" class="text-light"
@@ -264,7 +301,7 @@
                     </div>
                 </div>
             </div>
-{{--            <div style="color: #fff;">Created 2021</div>--}}
+            {{--            <div style="color: #fff;">Created 2021</div>--}}
         </section>
     </footer>
 

@@ -1,45 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Salsa&family=Sura:wght@400;700&display=swap');
 
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: 'Sura', sans-serif !important;
     color: #131313;
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
-.profile{
-    background-image: url('../img/rectangle-21.png');
-    background-repeat: no-repeat;
-    animation: slider 20s infinite linear;
-    height: 100vh;
+.learn {
     position: relative;
-    left: 11vh !important;
-    width: 100%;
-    border-bottom-left-radius: 5rem;
-    padding-left: 30vh !important;
+    top: 20vh !important;
 }
 
-@keyframes slider {
-    0% {
-        background-image: url('../img/rectangle-2.png');
-    }
-    45%{
-        background-image: url('../img/rectangle-22.png');
-    }
+#profile {
+    border-bottom-right-radius: 30px !important;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
 }
 
 @media (max-width: 768px) {
-    .logo{
+    .logo {
         filter: brightness(9.5);
     }
 
-    .osho{
+    .osho {
         margin: 0 auto;
         display: flex;
         justify-content: center;
@@ -47,21 +37,22 @@ body{
         padding-bottom: 1vh;
     }
 
-    .mrs{
+    .mrs {
         padding-top: 2.5vh;
     }
 
-    .learn{
+    .learn {
         position: relative;
-        top: 5vh;
+        top: 5vh !important;
         text-align: center;
     }
-    .profile{
+
+    .profile {
         display: none;
     }
 }
 
-.osho{
+.osho {
     color: #6C520E;
     border: 1px solid #6C520E;
     width: 150px;
@@ -71,41 +62,41 @@ body{
     font-weight: 400;
 }
 
-.happy{
+.happy {
     color: #131313;
     font: 400;
     font-family: 'Sura', sans-serif;
 }
 
-.square{
+.square {
     padding-left: 60vh;
     position: relative;
     top: 5vh;
 }
 
-.square1{
+.square1 {
     position: relative;
-    left: 7vh;
-    top: 18vh;
+    left: 4vh;
+    top: 20vh;
 }
 
-.square2{
+.square2 {
     position: relative;
-    left: 10vh;
-    top: 2vh;
+    left: 7vh;
+    top: 3vh;
 }
 
 @media (max-width: 858px) {
-    .square{
+    .square {
         display: none;
     }
 }
 
-.dialogue{
+.dialogue {
     text-align: center;
 }
 
-.dialogue h2:after{
+.dialogue h2:after {
     content: 'Wife';
     font-size: 50px;
     font-family: 'Salsa', sans-serif;
@@ -113,26 +104,25 @@ body{
     animation: text 10s infinite;
 }
 
-.center{
+.center {
     padding-top: 5vh !important;
 }
 
 @keyframes text {
-    20%{
+    20% {
         content: 'Wife';
     }
-    50%{
+    50% {
         content: 'Daughter';
     }
-    100%{
+    100% {
         content: 'Mother';
     }
 }
 
-.num{
+.num {
     font-family: 'Sura', sans-serif;
 }
-
 
 .btn2 {
     background-color: #6C520E;
@@ -144,11 +134,15 @@ body{
     font-size: 12px;
 }
 
-.footer{
+.footer {
     position: relative;
     top: 5vh;
 }
 
-.nav-scrolled{
+/* .nav-scrolled{
     display: none;
+} */
+
+.carousel-indicators {
+    display: none !important;
 }

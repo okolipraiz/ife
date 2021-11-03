@@ -296,9 +296,7 @@
                     service to God, Family, and humanity.
                     <br>
                 <p>
-                    <b>
-                        Written by: Dr Ifeoluwualoyomi Wole-OSho
-                    </b>
+
                 </p>
             </div>
         </div>
